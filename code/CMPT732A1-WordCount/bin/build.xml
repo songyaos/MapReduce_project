@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<project name="WordCount" default="CreateJar">
+    <target name="CreateJar" description="Create Jar file">
+        <jar jarfile="WordCount.jar" basedir="../bin/" includes="org/CMPT732A1/*.class" />
+    </target>
+</project>

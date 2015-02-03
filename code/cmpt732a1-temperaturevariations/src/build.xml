@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<project name="TemperatureVariation" default="CreateJar">
+    <target name="CreateJar" description="Create Jar file">
+        <jar jarfile="TemperatureVariation.jar" basedir="../bin/" includes="org/CMPT732A1/*.class" />
+        <scp file="TemperatureVariation.jar" todir="szhu:blya507@rcg-linux-ts1.rcg.sfu.ca:CMPT732/"
+            trust="true" />
+    </target>
+</project>
